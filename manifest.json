@@ -15,7 +15,7 @@
 	"content_scripts": [
 		{
 			"matches": ["<all_urls>"],
-			"js": ["jquery.js", "mediacontrol.js"]
+			"js": ["jquery.js", "mediacontrol.js", "delayclicks.js"]
 		}
 	]
 }
