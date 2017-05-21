@@ -6,6 +6,7 @@ This is a chrome extension designed to show people what the result of the FCC's 
 
 - Toggles media elements between played and paused to simulate buffering
 - Delays the actions of all links to simulate slow download speeds
+- Displays popup for all "censored" sites
 
 ## How to install
 

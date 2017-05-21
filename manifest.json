@@ -3,7 +3,7 @@
 
 	"name": "Lack of Net Neutrality Simulator",
 	"description": "This extension throttles your internet speed to nearly unusable speeds, just like what will happen if net neutrality is removed",
-	"version": "0.1",
+	"version": "0.3",
 
 	"browser_action": {
 		"default_icon": "icon.png"
@@ -15,7 +15,13 @@
 	"content_scripts": [
 		{
 			"matches": ["<all_urls>"],
+			"exclude_matches": ["*://*.bing.com/*", "*://*.yahoo.com/*", "*://*.hulu.com/*", "*://*.vimeo.com/*", "*://*.alibaba.com/*", "*://*.tidal.com/*"],
 			"js": ["jquery.js", "mediacontrol.js", "delayclicks.js"],
+			"css": ["nnn.css"]
+		},
+		{
+			"matches": ["*://*.netflix.com/*", "*://*.google.com/*", "*://*.amazon.com/*", "*://*.youtube.com/*", "*://*.spotify.com/*", "*://*.pandora.com/*", "*://*.facebook.com/*", "*://*.twitter.com/*", "*://*.reddit.com/*", "*://*.tumblr.com/*"],
+			"js": ["blockpages.js"],
 			"css": ["nnn.css"]
 		}
 	]

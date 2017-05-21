@@ -3,6 +3,7 @@ $(document).ready(function() {
 });
 
 function addHeader(string) {
+	$('.nnn-header').remove();
 	$(document.body).append('<div class="nnn-header"><h2>' + string + '</h2></div>');
 }
 
