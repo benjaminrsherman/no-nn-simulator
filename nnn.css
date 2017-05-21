@@ -1,0 +1,15 @@
+.nnn-header {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background-color: #A7B2BA;
+	text-align: center;
+	z-index:1000000;
+	opacity: .75;
+	pointer-events: none;
+}
+
+.nnn-header h2 {
+	opacity: 1;
+	color: black;
+}
