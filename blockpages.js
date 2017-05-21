@@ -27,7 +27,7 @@ $(document).ready(function() {
 		newurl = "tidal.com";
 	}
 
-	$(document.body).append("<div class='nnn-overlay'><h1>This website does not function fully on your ISP's service, please go to <a href='https://www." + newurl + "'>" + string + "</a> instead.</h1></br><p>(This message will disappear in 10 seconds)</p></div>");
+	$(document.body).append("<div class='nnn-overlay'><h1>This website does not function fully on your ISP's service, please go to <a href='https://www." + newurl + "'>" + string + "</a> instead.</br>If you wish to continue using this website, please contact your ISP to determine how it will affect your monthly bill.</h1></br><p>(This message will disappear in 10 seconds)</p></div>");
 	$(".nnn-header").hide();
 
 	setTimeout(function() {
