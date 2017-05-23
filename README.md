@@ -11,12 +11,12 @@ This is a chrome extension designed to show people what the result of the FCC's 
 "Censored" Sites | Equivalent "Sponsored" Site
 ---------------- | ---------------------------
 mail.google.com | mail.yahoo.com
-pandora.com, spotify.com, music.google.com, music.amazon.com | tidal.com
+pandora.com</br>spotify.com</br>music.google.com</br>music.amazon.com | tidal.com
 google.com | bing.com
 netflix.com | hulu.com
 youtube.com | vimeo.com
-amazon.com, ebay.com | alibaba.com
-facebook.com, twitter.com, reddit.com, tumblr.com | myspace.com
+amazon.com</br>ebay.com | alibaba.com
+facebook.com</br>twitter.com</br>reddit.com</br>tumblr.com | myspace.com
 apple.com | microsoft.com
 
 
