@@ -4,9 +4,21 @@ This is a chrome extension designed to show people what the result of the FCC's 
 
 ## What does this extension do?
 
-- Toggles media elements between played and paused to simulate buffering
-- Delays the actions of all links to simulate slow download speeds
-- Displays popup for all "censored" sites
+- Artificially throttles internet connection for all "un-allowed sites"
+- Displays popup for all "censored" sites recommending switching to the equivalent "sponsored"
+
+## Special sites
+"Censored" Sites | Equivalent "Sponsored" Site
+---------------- | ---------------------------
+mail.google.com | mail.yahoo.com
+pandora.com, spotify.com, music.google.com, music.amazon.com | tidal.com
+google.com | bing.com
+netflix.com | hulu.com
+youtube.com | vimeo.com
+amazon.com, ebay.com | alibaba.com
+facebook.com, twitter.com, reddit.com, tumblr.com | myspace.com
+apple.com | microsoft.com
+
 
 ## How to install
 

@@ -9,20 +9,20 @@
 		"default_icon": "icon.png"
 	},
 	"permissions": [
-		"<all_urls>"
+		"debugger",
+		"tabs"
 	],
 
 	"content_scripts": [
 		{
 			"matches": ["<all_urls>"],
-			"exclude_matches": ["*://*.bing.com/*", "*://*.yahoo.com/*", "*://*.hulu.com/*", "*://*.vimeo.com/*", "*://*.alibaba.com/*", "*://*.tidal.com/*"],
-			"js": ["jquery.js", "mediacontrol.js", "delayclicks.js"],
-			"css": ["nnn.css"]
-		},
-		{
-			"matches": ["*://*.netflix.com/*", "*://*.google.com/*", "*://*.amazon.com/*", "*://*.youtube.com/*", "*://*.spotify.com/*", "*://*.pandora.com/*", "*://*.facebook.com/*", "*://*.twitter.com/*", "*://*.reddit.com/*", "*://*.tumblr.com/*"],
-			"js": ["blockpages.js"],
+			"js": ["jquery.js", "blockpages.js"],
 			"css": ["nnn.css"]
 		}
-	]
+	],
+
+	"background": {
+		"scripts": ["jquery.js", "throttler.js"],
+		"persistent": true
+	}
 }
