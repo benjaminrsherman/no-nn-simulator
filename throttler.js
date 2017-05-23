@@ -30,7 +30,7 @@ function onAttach(debuggeeId) {
 	var tabId = debuggeeId.tabId;
 	attachedTabs[tabId] = true;
 	chrome.debugger.sendCommand(debuggeeId, "Network.enable", null, function() {
-		chrome.debugger.sendCommand(debuggeeId, "Network.emulateNetworkConditions", {"offline": false, "latency": 500, "downloadThroughput": 50, "uploadThroughput": 20});
+		chrome.debugger.sendCommand(debuggeeId, "Network.emulateNetworkConditions", {"offline": false, "latency": 350, "downloadThroughput": 250, "uploadThroughput": 75});
 	});
 }
 
