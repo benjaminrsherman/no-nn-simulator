@@ -10,15 +10,8 @@
 	},
 	"permissions": [
 		"debugger",
-		"tabs"
-	],
-
-	"content_scripts": [
-		{
-			"matches": ["<all_urls>"],
-			"js": ["jquery.js", "blockpages.js"],
-			"css": ["nnn.css"]
-		}
+		"tabs",
+		"<all_urls>"
 	],
 
 	"background": {

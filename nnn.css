@@ -4,8 +4,8 @@
 	width: 100%;
 	background-color: #A7B2BA;
 	text-align: center;
-	z-index: 1000000;
-	opacity: .75;
+	z-index: 99999999999;
+	opacity: .9;
 	pointer-events: none;
 }
 
@@ -21,7 +21,7 @@
 	height: 100%;
 	background-color: #A7B2BA;
 	text-align: center;
-	z-index: 10000000;
+	z-index: 99999999999;
 	opacity: .95;
 }
 

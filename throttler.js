@@ -19,18 +19,20 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 			throttled = false;
 		}
 	}
-	if (throttled && !attachedTabs[tabId])
-		chrome.debugger.attach(debuggeeId, version, onAttach.bind(null, debuggeeId));
-	else if (!throttled && attachedTabs[tabId])
+	if (throttled && !attachedTabs[tabId]) {
+			chrome.debugger.attach(debuggeeId, version, onAttach.bind(null, debuggeeId));
+		}
+	} else if (!throttled && attachedTabs[tabId]) {
 		chrome.debugger.sendCommand(debuggeeId, "Network.disable");
-		chrome.debugger.detach(debuggeeId, version, onDetach.bind(null, debuggeeId));
+		chrome.debugger.detach(debuggeeId, onDetach.bind(null, debuggeeId));
+	}
 });
 
 function onAttach(debuggeeId) {
 	var tabId = debuggeeId.tabId;
 	attachedTabs[tabId] = true;
 	chrome.debugger.sendCommand(debuggeeId, "Network.enable", null, function() {
-		chrome.debugger.sendCommand(debuggeeId, "Network.emulateNetworkConditions", {"offline": false, "latency": 350, "downloadThroughput": 250, "uploadThroughput": 75});
+		chrome.debugger.sendCommand(debuggeeId, "Network.emulateNetworkConditions", {"offline": false, "latency": 40, "downloadThroughput": 1500, "uploadThroughput": 750});
 	});
 }
 
@@ -48,7 +50,8 @@ data = {
 					"alibaba.com",
 					"myspace.com",
 					"tidal.com",
-					"microsoft.com"],
+					"microsoft.com",
+					"christianmingle.com"],
 
 		"blocked": [{ "name": ["mail.google.com"], "alternateurl": "mail.yahoo.com", "alternatename": "Yahoo! Mail" },
 					{ "name": ["pandora.com", "spotify.com", "music.google.com", "music.amazon.com"], "alternateurl": "tidal.com", "alternatename": "Tidal" },
@@ -57,5 +60,6 @@ data = {
 					{ "name": ["youtube.com"], "alternateurl": "vimeo.com", "alternatename": "Vimeo" },
 					{ "name": ["amazon.com", "ebay.com"], "alternateurl": "alibaba.com", "alternatename": "Alibaba" },
 					{ "name": ["facebook.com", "twitter.com", "reddit.com", "tumblr.com"], "alternateurl": "myspace.com", "alternatename": "Myspace" },
-					{ "name": ["apple.com"], "alternateurl": "microsoft.com", "alternatename": "Microsoft" }]
+					{ "name": ["apple.com"], "alternateurl": "microsoft.com", "alternatename": "Microsoft" },
+					{ "name": ["pornhub.com", "youporn.com", "xvideos.com", "redtube.com", "tube8.com", "brazzers.com", "pornmd.com", "thumbzilla.com", "realitykings.com", "mydirtyhobby.com", "seancody.com", "men.com", "digitalplayground.com", "mofos.com", "babes.com", "gaytube.com", "twistys.com", "peeperz.com", "sextube.com", "porniq.com", "webcams.com"], "alternateurl": "christianmingle.com", "alternatename": "Christian Mingle"}]
 		}
