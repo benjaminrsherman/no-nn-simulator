@@ -19,7 +19,16 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 			throttled = false;
 		}
 	}
-	if (throttled && !attachedTabs[tabId]) {
+	if (throttled) {
+		chrome.tabs.executeScript(tabId, {
+			file: "jquery.js",
+			runAt: "document_start"
+		});
+		chrome.tabs.executeScript(tabId, {
+			file: "blockpages.js",
+			runAt: "document_start"
+		});
+		if (!attachedTabs[tabId]) {
 			chrome.debugger.attach(debuggeeId, version, onAttach.bind(null, debuggeeId));
 		}
 	} else if (!throttled && attachedTabs[tabId]) {

@@ -14,6 +14,13 @@
 		"<all_urls>"
 	],
 
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"css": ["nnn.css"]
+		}
+	],
+
 	"background": {
 		"scripts": ["jquery.js", "throttler.js"],
 		"persistent": true
