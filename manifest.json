@@ -3,7 +3,7 @@
 
 	"name": "Lack of Net Neutrality Simulator",
 	"description": "This extension throttles your internet speed to nearly unusable speeds, just like what will happen if net neutrality is removed",
-	"version": "0.7",
+	"version": "1.0",
 
 	"browser_action": {
 		"default_icon": "icon.png"
