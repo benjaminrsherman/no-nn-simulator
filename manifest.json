@@ -11,7 +11,8 @@
 	"permissions": [
 		"debugger",
 		"tabs",
-		"<all_urls>"
+		"<all_urls>",
+		"contentSettings"
 	],
 
 	"content_scripts": [

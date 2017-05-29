@@ -32,7 +32,6 @@ loop:
 			if (url.indexOf(URL) !== -1) {
 				replace = true;
 				window.alert("This website does not function correctly on your ISP's service, please use " + block["alternatename"] + " instead.");
-				window.stop();
 				break loop;
 			}
 		}

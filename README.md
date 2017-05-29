@@ -7,8 +7,9 @@ This is a chrome extension designed to show people what the result of the FCC's 
 
 ## What does this extension do?
 
-- Artificially throttles internet connection for all "un-allowed sites"
+- Artificially throttles internet connection to 5mb/s for all "un-allowed sites"
 - Displays popup for all "censored" sites recommending switching to the equivalent "sponsored"
+- Prevents the loading of images, plugins and javascript on "un-allowed sites"
 
 ## Special sites
 "Censored" Sites | Equivalent "Sponsored" Site
