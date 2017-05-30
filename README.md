@@ -30,3 +30,7 @@ pornhub.com</br>youporn.com</br>xvideos.com</br>redtube.com</br>tube8.com</br>br
 To download this extension, first download a .zip archive of this repository and unpack it.  Now go to [chrome://extensions](chrome://extensions) and check developer mode in the top-right corner.  Then click "Load unpacked extension...", navigate to the unpacked archive and select "Ok".  This extension will function as any other.
 ### How to uninstall
 Go to [chrome://extensions](chrome://extensions) and click the check-box next to "Enabled" or click the trash icon next to the extension
+
+</br>
+
+All promo images provided by (foxlet)[https://github.com/foxlet]
