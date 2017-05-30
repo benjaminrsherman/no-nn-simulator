@@ -33,4 +33,4 @@ Go to [chrome://extensions](chrome://extensions) and click the check-box next to
 
 </br>
 
-All promo images provided by (foxlet)[https://github.com/foxlet]
+All promo images provided by [foxlet](https://github.com/foxlet)
