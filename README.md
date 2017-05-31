@@ -22,6 +22,7 @@ youtube.com | vimeo.com
 amazon.com</br>ebay.com | alibaba.com
 facebook.com</br>twitter.com</br>reddit.com</br>tumblr.com | myspace.com
 apple.com | microsoft.com
+wikipedia.com | answers.yahoo.com
 pornhub.com</br>youporn.com</br>xvideos.com</br>redtube.com</br>tube8.com</br>brazzers.com</br>pornmd.com</br>thumbzilla.com</br>realitykings.com</br>mydirtyhobby.com</br>seancody.com</br>men.com</br>digitalplayground.com</br>mofos.com</br>babes.com</br>gaytube.com</br>twistys.com</br>peeperz.com</br>sextube.com</br>porniq.com</br>webcams.com | christianmingle.com
 
 
