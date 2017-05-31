@@ -71,11 +71,11 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 	}
 	if (throttled) {
 		chrome.tabs.executeScript(tabId, {
-			file: "jquery.js",
+			file: "js/jquery.js",
 			runAt: "document_start"
 		});
 		chrome.tabs.executeScript(tabId, {
-			file: "blockpages.js",
+			file: "js/blockpages.js",
 			runAt: "document_start"
 		});
 		if (!attachedTabs[tabId]) {
