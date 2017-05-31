@@ -7,6 +7,7 @@
 	"myspace.com",
 	"tidal.com",
 	"microsoft.com",
+	"uncyclopedia.wikia.com",
 	"christianmingle.com"],
 
 	"blocked": [{ "name": ["mail.google.com"], "alternateurl": "mail.yahoo.com", "alternatename": "Yahoo! Mail" },
@@ -17,6 +18,6 @@
 	{ "name": ["amazon.com", "ebay.com"], "alternateurl": "alibaba.com", "alternatename": "Alibaba" },
 	{ "name": ["facebook.com", "twitter.com", "reddit.com", "tumblr.com"], "alternateurl": "myspace.com", "alternatename": "Myspace" },
 	{ "name": ["apple.com"], "alternateurl": "microsoft.com", "alternatename": "Microsoft" },
-	{ "name": ["wikipedia.com"], "alternateurl": "answers.yahoo.com", "alternatename": "Yahoo! Answers"}
+	{ "name": ["wikipedia.com"], "alternateurl": "uncyclopedia.wikia.com", "alternatename": "Uncyclopedia"}
 	{ "name": ["pornhub.com", "youporn.com", "xvideos.com", "redtube.com", "tube8.com", "brazzers.com", "pornmd.com", "thumbzilla.com", "realitykings.com", "mydirtyhobby.com", "seancody.com", "men.com", "digitalplayground.com", "mofos.com", "babes.com", "gaytube.com", "twistys.com", "peeperz.com", "sextube.com", "porniq.com", "webcams.com"], "alternateurl": "christianmingle.com", "alternatename": "Christian Mingle"}]
 }
