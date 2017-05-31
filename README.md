@@ -5,7 +5,7 @@ THIS IS AN INDEPENDENT EXTENSION AND IS NOT RELATED TO NOR ENDORSED BY ANY WEBSI
 
 This is a chrome extension designed to show people what the result of the FCC's decision to remove net neutrality would be.
 
-Chrome Webstore link: [https://chrome.google.com/webstore/detail/removal-of-net-neutrality/macmdnlopncdoehmjhfenfblflnohoen](https://chrome.google.com/webstore/detail/removal-of-net-neutrality/macmdnlopncdoehmjhfenfblflnohoen)
+Chrome Web Store link: [https://chrome.google.com/webstore/detail/removal-of-net-neutrality/macmdnlopncdoehmjhfenfblflnohoen](https://chrome.google.com/webstore/detail/removal-of-net-neutrality/macmdnlopncdoehmjhfenfblflnohoen)
 
 ## What does this extension do?
 
